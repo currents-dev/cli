@@ -8,5 +8,12 @@
   },
   "dependencies": {
     "cy2": "^1.1.1"
-  }
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "tests",
+    "currents",
+    "sorry-cypress"
+  ]
 }
