@@ -12,10 +12,10 @@ commander@^2.9.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-cy2@^1.1.0-beta.0:
-  version "1.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/cy2/-/cy2-1.1.0-beta.0.tgz#66e9c71edddccaab2f4cfbd4ca923cba47ce27f3"
-  integrity sha512-lhNd4GUCpaGE4WZFsazaS49ElJXGN1b6QD9zrpnOdGiVhBIneAgqKencH8dWnmNmrORZPxNp+sIbgSfACjlbhg==
+cy2@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/cy2/-/cy2-1.1.1.tgz#aa76047ec49476f846106356b239ddcb58b3be11"
+  integrity sha512-ILNhlyEZ6lwvdtmPYp+Zal7eJsiW+/EYDp+croYh3QSaCG2neF5k/Z0b38uq9uAaqzp9CLmEjts6sVccR17sSg==
   dependencies:
     js-yaml "^4.0.0"
     npm-which "^3.0.1"

@@ -1,2 +1,7 @@
 #!/usr/bin/env node
-console.log("cli");
+const lib = require('../');
+
+lib.run().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
