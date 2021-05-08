@@ -1,8 +1,12 @@
 {
   "name": "@currents/cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/currents-dev/cli.git"
+  },
   "bin": {
     "currents": "bin/currents.js"
   },
