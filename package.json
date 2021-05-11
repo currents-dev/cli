@@ -1,6 +1,6 @@
 {
   "name": "@currents/cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -11,7 +11,7 @@
     "currents": "bin/currents.js"
   },
   "dependencies": {
-    "cy2": "^1.1.1"
+    "cy2": "^1.2.1"
   },
   "keywords": [
     "cypress",
