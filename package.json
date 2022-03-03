@@ -11,7 +11,7 @@
     "currents": "bin/currents.js"
   },
   "dependencies": {
-    "cy2": "1.2.1"
+    "cy2": "2.0.0-beta.0"
   },
   "keywords": [
     "cypress",
