@@ -12,13 +12,21 @@ commander@^2.9.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-cy2@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/cy2/-/cy2-1.2.1.tgz#5187c47c61c5dd22192fe50271924bf94bec3bc7"
-  integrity sha512-wT99aBDkMcsmbAYK6mwfDTbH43tN/hyaJ2NrLYfjid9bDTx3rn7UaPKWOIRZtT7L2v32zbMp/GTRtHO3HWb23Q==
+cy2@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/cy2/-/cy2-2.0.1.tgz#1d13bbec387ee31537a8a948bcbf608f06dd3441"
+  integrity sha512-vzLXnNj9LtqGyvsTx+qo4Zj5K8tVVIntXGPGAQE4w/ThZFtONTsGyc1kk29jtsHbJwZQ+zZu3o0GE+kPsSBlCA==
   dependencies:
+    debug "^4.3.2"
     js-yaml "^4.0.0"
     npm-which "^3.0.1"
+
+debug@^4.3.2:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -31,6 +39,11 @@ js-yaml@^4.0.0:
   integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
   dependencies:
     argparse "^2.0.1"
+
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 npm-path@^2.0.2:
   version "2.0.4"

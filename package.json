@@ -8,10 +8,11 @@
     "url": "https://github.com/currents-dev/cli.git"
   },
   "bin": {
-    "currents": "bin/currents.js"
+    "currents": "bin/currents.js",
+    "currents-prepare": "bin/currents-prepare.js"
   },
   "dependencies": {
-    "cy2": "2.0.0"
+    "cy2": "2.0.1"
   },
   "keywords": [
     "cypress",
