@@ -3,6 +3,9 @@
   "version": "2.1.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "release": "release-it"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/currents-dev/cli.git"
@@ -20,5 +23,26 @@
     "tests",
     "currents",
     "sorry-cypress"
-  ]
+  ],
+  "release-it": {
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
+    },
+    "hooks": {
+      "before:init": "run-s clean build"
+    }
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.0",
+    "release-it": "^15.4.1"
+  }
 }
