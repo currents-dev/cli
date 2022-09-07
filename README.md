@@ -10,3 +10,7 @@ Example:
 npm install @currents/cli cypress
 npx currents run --parallel --record --key XXXXXX --ci-build-id build-001
 ```
+
+# Changelog
+
+https://github.com/currents-dev/cli/blob/main/CHANGELOG.md
