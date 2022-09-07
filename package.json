@@ -3,6 +3,10 @@
   "version": "2.1.0",
   "main": "index.js",
   "license": "MIT",
+  "author": {
+    "name": "Currents",
+    "email": "andrew@currents.dev"
+  },
   "scripts": {
     "build": "echo \"built!\"",
     "release": "release-it",
