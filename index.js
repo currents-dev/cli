@@ -7,3 +7,7 @@ exports.run = async function main() {
 exports.patch = async function () {
   await patch("https://cy.currents.dev");
 };
+
+exports.reset = async function () {
+  await patch("https://api.cypress.io/");
+};

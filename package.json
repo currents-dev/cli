@@ -18,7 +18,8 @@
   },
   "bin": {
     "currents": "bin/currents.js",
-    "currents-prepare": "bin/currents-prepare.js"
+    "currents-prepare": "bin/currents-prepare.js",
+    "currents-reset": "bin/currents-reset.js"
   },
   "dependencies": {
     "cy2": "2.0.1"
