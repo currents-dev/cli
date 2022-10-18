@@ -1,6 +1,6 @@
 {
   "name": "@currents/cli",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "main": "index.js",
   "license": "MIT",
   "author": {

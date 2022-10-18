@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/currents-dev/cli/compare/v2.1.1...v2.2.0) (2022-10-18)
+
+
+### Features
+
+* add currents-reset ([40f5b27](https://github.com/currents-dev/cli/commit/40f5b27b59488bf32e128bbfd3ee8044ddbee052))
+
 ### [2.1.1](https://github.com/currents-dev/cli/compare/v2.1.0...v2.1.1) (2022-09-07)
 
 
