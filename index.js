@@ -1,13 +1,14 @@
-const { run, patch } = require("cy2");
+const { run, patch, inject } = require("cy2");
 
 exports.run = async function main() {
-  await run("https://cy.currents.dev", "currents");
+  process.env.CYPRESS_API_URL = "https://cy.currents.dev/";
+  await run("currents");
 };
 
 exports.patch = async function () {
-  await patch("https://cy.currents.dev");
+  await inject(`${__dirname}/inject.js`);
 };
 
 exports.reset = async function () {
-  await patch("https://api.cypress.io/");
+  await patch();
 };
