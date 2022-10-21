@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.0-beta.0](https://github.com/currents-dev/cli/compare/v2.2.0...v3.0.0-beta.0) (2022-10-21)
+
+
+### Features
+
+* cy2@2.1.0 ([11db5e4](https://github.com/currents-dev/cli/commit/11db5e43b550bf7dfe0d2da770664fa748c40911))
+* use cy2@3.2.1 with non-destructive patches ([15c7e6e](https://github.com/currents-dev/cli/commit/15c7e6eb3e3fa38ab2010db20817ffe20522ba75))
+
 ## [2.2.0](https://github.com/currents-dev/cli/compare/v2.1.1...v2.2.0) (2022-10-18)
 
 
