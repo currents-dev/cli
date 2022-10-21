@@ -1,8 +1,6 @@
-[Currents.dev](https://currents.dev/?utm_source=currents_cli) - is a drop-in replacement for Cypress Dashboard. Run millions of Cypress tests in parallel without breaking the bank.
-
 # @currents/cli
 
-CLI tool for running cypress tests with https://currents.dev dashboard.
+CLI tool for running cypress tests with https://currents.dev dashboard. [Currents.dev](https://currents.dev/?utm_source=currents_cli) - is a drop-in replacement for Cypress Dashboard.
 
 Example:
 
