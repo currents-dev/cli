@@ -964,10 +964,10 @@ crypto-random-string@^4.0.0:
   dependencies:
     type-fest "^1.0.1"
 
-cy2@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/cy2/-/cy2-3.1.2.tgz#44f84b484a3c77bc60bbf82cd460fd107ab93abf"
-  integrity sha512-yXxbxReHVLyTfQ2cDRq/IL7/nuQLPSAn9Y/0aWlkrBg3KpVbjyHxb6SA8sSltcYGmggWWqpVyu9e+oxX6ZrHlg==
+cy2@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/cy2/-/cy2-3.1.4.tgz#ee90b72fbab20cb9cd218177fb8b05314c62f7cd"
+  integrity sha512-LvqdiEbCYK+k7llElyouynluw7j2s6kMC3aY0FKeAf+p3ceTsblRer9QNCxcH1eActj1W9ZbM8QFN24zWqSqsw==
   dependencies:
     acorn "^8.8.0"
     debug "^4.3.2"
