@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.0-beta.3](https://github.com/currents-dev/cli/compare/v3.0.0-beta.2...v3.0.0-beta.3) (2022-10-24)
+
+
+### Bug Fixes
+
+* cy2@3.1.4 ([3d07cb2](https://github.com/currents-dev/cli/commit/3d07cb2445bc754d970cd80d2dfce65d19a389f7))
+
 ## [3.0.0-beta.2](https://github.com/currents-dev/cli/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2022-10-24)
 
 
