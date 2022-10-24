@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.0-beta.2](https://github.com/currents-dev/cli/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2022-10-24)
+
+
+### Bug Fixes
+
+* expose patch API ([50d19d5](https://github.com/currents-dev/cli/commit/50d19d5b0692d49b6cd11ac985279e218b1813e9))
+
 ## [3.0.0-beta.1](https://github.com/currents-dev/cli/compare/v3.0.0-beta.0...v3.0.0-beta.1) (2022-10-21)
 
 ## [3.0.0-beta.0](https://github.com/currents-dev/cli/compare/v2.2.0...v3.0.0-beta.0) (2022-10-21)
