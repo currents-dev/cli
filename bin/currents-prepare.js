@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const lib = require("../");
+const lib = require("../dist");
 
 lib.patch().catch((error) => {
   console.error(error);
