@@ -32,7 +32,7 @@
     "currents-reset": "bin/currents-reset.js"
   },
   "dependencies": {
-    "cy2": "^3.1.4"
+    "cy2": "^3.1.7"
   },
   "keywords": [
     "cypress",
