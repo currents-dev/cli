@@ -1,5 +1,51 @@
 # Changelog
 
+## [3.0.0](https://github.com/currents-dev/cli/compare/v3.0.0-beta.5...v3.0.0) (2022-11-11)
+
+### Features
+
+* support cypress 11 ([13ea03e](https://github.com/currents-dev/cli/commit/13ea03e6908bddd13f6934c15fe32264db0df4fa))
+* cy@3.2.0 ([13ea03e](https://github.com/currents-dev/cli/commit/13ea03e6908bddd13f6934c15fe32264db0df4fa))
+* expose patch API ([50d19d5](https://github.com/currents-dev/cli/commit/50d19d5b0692d49b6cd11ac985279e218b1813e9))
+
+## [3.0.0-beta.5](https://github.com/currents-dev/cli/compare/v3.0.0-beta.4...v3.0.0-beta.5) (2022-11-11)
+
+
+### Features
+
+* support cypress 11 ([13ea03e](https://github.com/currents-dev/cli/commit/13ea03e6908bddd13f6934c15fe32264db0df4fa))
+
+## [3.0.0-beta.4](https://github.com/currents-dev/cli/compare/v3.0.0-beta.3...v3.0.0-beta.4) (2022-10-27)
+
+
+### Bug Fixes
+
+* cy@3.1.7 ([2c317a3](https://github.com/currents-dev/cli/commit/2c317a37cb4433921f649d8daf6a6636ae737365))
+
+## [3.0.0-beta.3](https://github.com/currents-dev/cli/compare/v3.0.0-beta.2...v3.0.0-beta.3) (2022-10-24)
+
+
+### Bug Fixes
+
+* cy2@3.1.4 ([3d07cb2](https://github.com/currents-dev/cli/commit/3d07cb2445bc754d970cd80d2dfce65d19a389f7))
+
+## [3.0.0-beta.2](https://github.com/currents-dev/cli/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2022-10-24)
+
+
+### Bug Fixes
+
+* expose patch API ([50d19d5](https://github.com/currents-dev/cli/commit/50d19d5b0692d49b6cd11ac985279e218b1813e9))
+
+## [3.0.0-beta.1](https://github.com/currents-dev/cli/compare/v3.0.0-beta.0...v3.0.0-beta.1) (2022-10-21)
+
+## [3.0.0-beta.0](https://github.com/currents-dev/cli/compare/v2.2.0...v3.0.0-beta.0) (2022-10-21)
+
+
+### Features
+
+* cy2@2.1.0 ([11db5e4](https://github.com/currents-dev/cli/commit/11db5e43b550bf7dfe0d2da770664fa748c40911))
+* use cy2@3.2.1 with non-destructive patches ([15c7e6e](https://github.com/currents-dev/cli/commit/15c7e6eb3e3fa38ab2010db20817ffe20522ba75))
+
 ## [2.2.0](https://github.com/currents-dev/cli/compare/v2.1.1...v2.2.0) (2022-10-18)
 
 

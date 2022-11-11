@@ -1,28 +1,38 @@
 {
   "name": "@currents/cli",
-  "version": "2.2.0",
-  "main": "index.js",
+  "version": "3.0.0",
   "license": "MIT",
+  "main": "./dist",
+  "typings": "./dist",
   "author": {
     "name": "Currents",
     "email": "andrew@currents.dev"
   },
   "scripts": {
-    "build": "echo \"built!\"",
+    "build": "run-s tsc swc",
+    "dev": "run-p watch:*",
     "release": "release-it",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "tsc": "tsc",
+    "swc": "swc src -d dist",
+    "watch:tsc": "run-s \"tsc --watch --preserveWatchOutput\"",
+    "watch:swc": "run-s \"swc --watch\""
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/currents-dev/cli.git"
   },
+  "files": [
+    "bin/*",
+    "dist/*"
+  ],
   "bin": {
     "currents": "bin/currents.js",
     "currents-prepare": "bin/currents-prepare.js",
     "currents-reset": "bin/currents-reset.js"
   },
   "dependencies": {
-    "cy2": "^2.1.0"
+    "cy2": "^3.2.0"
   },
   "keywords": [
     "cypress",
@@ -53,8 +63,12 @@
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^5.1.0",
+    "@swc/cli": "^0.1.49",
+    "@swc/core": "^1.2.85",
+    "@types/node": "^18.11.3",
     "npm-run-all": "^4.1.5",
     "release-it": "^15.4.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4"
   }
 }
