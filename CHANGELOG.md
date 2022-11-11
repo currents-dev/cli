@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.0-beta.5](https://github.com/currents-dev/cli/compare/v3.0.0-beta.4...v3.0.0-beta.5) (2022-11-11)
+
+
+### Features
+
+* support cypress 11 ([13ea03e](https://github.com/currents-dev/cli/commit/13ea03e6908bddd13f6934c15fe32264db0df4fa))
+
 ## [3.0.0-beta.4](https://github.com/currents-dev/cli/compare/v3.0.0-beta.3...v3.0.0-beta.4) (2022-10-27)
 
 
