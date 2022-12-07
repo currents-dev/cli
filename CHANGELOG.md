@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.1](https://github.com/currents-dev/cli/compare/v3.1.0...v3.1.1) (2022-12-07)
+
+
+### Bug Fixes
+
+* patch function ([d69876a](https://github.com/currents-dev/cli/commit/d69876ad0c8bee763bcf727939ab4e77fb9c69d8))
+
 ## [3.1.0](https://github.com/currents-dev/cli/compare/v3.0.0...v3.1.0) (2022-12-07)
 
 
