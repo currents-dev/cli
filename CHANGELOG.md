@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/currents-dev/cli/compare/v3.0.0...v3.1.0) (2022-12-07)
+
+
+### Features
+
+* cypress 12+ ([a3ccb53](https://github.com/currents-dev/cli/commit/a3ccb53d2897cf48ecfbdfec212a9cbc2896851a))
+
 ## [3.0.0](https://github.com/currents-dev/cli/compare/v3.0.0-beta.5...v3.0.0) (2022-11-11)
 
 ### Features
