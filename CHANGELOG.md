@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.2](https://github.com/currents-dev/cli/compare/v3.1.1...v3.1.2) (2022-12-10)
+
+
+### Bug Fixes
+
+* fixate cy2 version ([9fa72ff](https://github.com/currents-dev/cli/commit/9fa72ffa014ecdb9a5dc34982f4941c3539c2f53))
+
 ### [3.1.1](https://github.com/currents-dev/cli/compare/v3.1.0...v3.1.1) (2022-12-07)
 
 
