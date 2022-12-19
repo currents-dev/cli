@@ -1,24 +1,12 @@
-import { inject, patch as cyPatch, run as cyRun } from "cy2";
+import * as cy2 from "cy2";
 
-export async function run() {
-  process.env.CYPRESS_API_URL = "https://cy.currents.dev/";
-  await cyRun("currents");
+const URL = "https://cy.currents.dev";
+
+export async function run(config: CypressCommandLine.CypressRunOptions) {
+  return await cy2.run(URL, config);
 }
 
-/**
- * Patch Cypress to inject the Currents SDK.
- *
- * @param cypressPackage - the entry point to the Cypress package.
- */
-export async function patch(cypressPackage = require.resolve("cypress")) {
-  await inject(`${__dirname}/inject.js`, cypressPackage);
-}
-
-/**
- * Reset Cypress to use the original configuration.
- *
- * @param cypressPackage - the entry point to the Cypress package.
- */
-export async function reset(cypressPackage = require.resolve("cypress")) {
-  await cyPatch(cypressPackage);
+export async function spawn() {
+  console.log(`[currents] Using Cypress orchestration service: ${URL}`);
+  return cy2.spawn(URL);
 }
