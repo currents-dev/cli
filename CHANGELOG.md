@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.0-beta.6](https://github.com/currents-dev/cli/compare/v3.1.3...v4.0.0-beta.6) (2023-01-03)
+
+
+### Bug Fixes
+
+* cy@4.0.0-beta.10 ([28a0324](https://github.com/currents-dev/cli/commit/28a03240f218ad94a3f064783fdf94122931de42))
+* cy2@4.0.0-beta.12 ([9ea75e4](https://github.com/currents-dev/cli/commit/9ea75e4b115c419a85937220c03efb236a1c43be))
+
 ## [4.0.0-beta.5](https://github.com/currents-dev/cli/compare/v3.1.3...v4.0.0-beta.5) (2023-01-03)
 
 
