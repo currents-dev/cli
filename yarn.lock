@@ -777,7 +777,7 @@ chalk@^2.0.0, chalk@^2.4.1:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.1.0:
+chalk@^4.1.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -1166,13 +1166,15 @@ crypto-random-string@^4.0.0:
   dependencies:
     type-fest "^1.0.1"
 
-cy2@^4.0.0-beta.8:
-  version "4.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/cy2/-/cy2-4.0.0-beta.8.tgz#3df03e0a5b9f240d00f8828edbf5258d6898875d"
-  integrity sha512-xWOU5vbA97YHeYFE1QZ9+aW2hD2RdpG5oIbqXHFvK7UPvtciZTstyOlZpewcX+jGfc9mA+s+hlaOLqAW9XW2nQ==
+cy2@4.0.0-beta.10:
+  version "4.0.0-beta.10"
+  resolved "https://registry.yarnpkg.com/cy2/-/cy2-4.0.0-beta.10.tgz#6b5f68c27d29083b716469685fa9f2e8edd1218a"
+  integrity sha512-JUcNZCCEGlDVpuNzS+YGYQYW3UrHkUSCSPtp/X9BraFu8GZitAWqWvFDyJ4Nj7cL1TpRbjsWdZIkaEPMVM2zvA==
   dependencies:
+    chalk "^4.1.2"
     debug "^4.3.2"
     http-proxy "^1.18.1"
+    https-proxy-agent "^5.0.1"
     lodash "^4.17.21"
     slash "3.0.0"
     source-map-support "^0.5.21"
@@ -2142,7 +2144,7 @@ http2-wrapper@^2.1.10:
     quick-lru "^5.1.1"
     resolve-alpn "^1.2.0"
 
-https-proxy-agent@5, https-proxy-agent@^5.0.0:
+https-proxy-agent@5, https-proxy-agent@^5.0.0, https-proxy-agent@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz#c59ef224a04fe8b754f3db0063a25ea30d0005d6"
   integrity sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==
