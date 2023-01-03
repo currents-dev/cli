@@ -36,7 +36,7 @@
     "cypress": ">= 6.7.0"
   },
   "dependencies": {
-    "cy2": "4.0.0-beta.10"
+    "cy2": "4.0.0-beta.12"
   },
   "keywords": [
     "cypress",

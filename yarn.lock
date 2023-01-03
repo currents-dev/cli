@@ -1166,10 +1166,10 @@ crypto-random-string@^4.0.0:
   dependencies:
     type-fest "^1.0.1"
 
-cy2@4.0.0-beta.10:
-  version "4.0.0-beta.10"
-  resolved "https://registry.yarnpkg.com/cy2/-/cy2-4.0.0-beta.10.tgz#6b5f68c27d29083b716469685fa9f2e8edd1218a"
-  integrity sha512-JUcNZCCEGlDVpuNzS+YGYQYW3UrHkUSCSPtp/X9BraFu8GZitAWqWvFDyJ4Nj7cL1TpRbjsWdZIkaEPMVM2zvA==
+cy2@4.0.0-beta.12:
+  version "4.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/cy2/-/cy2-4.0.0-beta.12.tgz#d1b091e48ff2493eaa2f6cd8ae2df4ba542c3182"
+  integrity sha512-20pYxhJvlNtFAXMhTIfKndDCpb6qzhbLEtJJkL6Qer65TerkmHsLdjag41T4dek3J4/ZeHV8f5rIiRzYe3CUrg==
   dependencies:
     chalk "^4.1.2"
     debug "^4.3.2"
