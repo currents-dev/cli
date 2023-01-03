@@ -1,5 +1,7 @@
 # Changelog
 
+## [4.0.0-beta.4](https://github.com/currents-dev/cli/compare/v3.1.3...v4.0.0-beta.4) (2022-12-19)
+
 ## [4.0.0-beta.3](https://github.com/currents-dev/cli/compare/v3.1.3...v4.0.0-beta.3) (2022-12-19)
 
 ### [3.1.3](https://github.com/currents-dev/cli/compare/v3.1.2...v3.1.3) (2022-12-10)
