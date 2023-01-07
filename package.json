@@ -1,6 +1,6 @@
 {
   "name": "@currents/cli",
-  "version": "4.0.0-beta.6",
+  "version": "4.0.0-beta.7",
   "license": "MIT",
   "main": "./dist",
   "typings": "./dist",
@@ -36,7 +36,7 @@
     "cypress": ">= 6.7.0"
   },
   "dependencies": {
-    "cy2": "4.0.0-beta.13"
+    "cy2": "4.0.0-beta.14"
   },
   "keywords": [
     "cypress",
