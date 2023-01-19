@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-const lib = require('../');
+const lib = require("../");
 
-lib.run().catch((error) => {
+lib.spawn().catch((error) => {
   console.error(error);
   process.exit(1);
 });

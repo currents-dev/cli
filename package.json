@@ -1,22 +1,22 @@
 {
   "name": "@currents/cli",
-  "version": "3.1.3",
+  "version": "4.0.1",
   "license": "MIT",
   "main": "./dist",
   "typings": "./dist",
   "author": {
-    "name": "Currents",
+    "name": "Currents Software Inc",
     "email": "andrew@currents.dev"
   },
   "scripts": {
-    "build": "run-s tsc swc",
+    "build": "run-s esbuild tsc",
     "dev": "run-p watch:*",
     "release": "release-it",
     "clean": "rimraf dist",
     "tsc": "tsc",
-    "swc": "swc src -d dist",
+    "esbuild": "esbuild ./src/index.ts --bundle --minify --platform=node --target=node14 --packages=external --outdir=dist",
     "watch:tsc": "run-s \"tsc --watch --preserveWatchOutput\"",
-    "watch:swc": "run-s \"swc --watch\""
+    "watch:swc": "run-s \"esbuild --watch\""
   },
   "repository": {
     "type": "git",
@@ -27,19 +27,31 @@
     "dist/*"
   ],
   "bin": {
-    "currents": "bin/currents.js",
-    "currents-prepare": "bin/currents-prepare.js",
-    "currents-reset": "bin/currents-reset.js"
+    "currents": "bin/currents.js"
+  },
+  "engines": {
+    "node": ">=14.17.0"
   },
   "dependencies": {
-    "cy2": "3.4.1"
+    "cy2": "4.0.6"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.0",
+    "@types/node": "^18.11.3",
+    "cypress": "^12.3.0",
+    "esbuild": "^0.16.9",
+    "npm-run-all": "^4.1.5",
+    "release-it": "^15.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4"
   },
   "keywords": [
     "cypress",
     "e2e",
     "tests",
     "currents",
-    "sorry-cypress"
+    "sorry-cypress",
+    "cypress cloud"
   ],
   "release-it": {
     "npm": {
@@ -60,15 +72,5 @@
     "hooks": {
       "before:init": "run-s clean build"
     }
-  },
-  "devDependencies": {
-    "@release-it/conventional-changelog": "^5.1.0",
-    "@swc/cli": "^0.1.49",
-    "@swc/core": "^1.2.85",
-    "@types/node": "^18.11.3",
-    "npm-run-all": "^4.1.5",
-    "release-it": "^15.4.1",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.8.4"
   }
 }

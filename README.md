@@ -1,52 +1,78 @@
 # @currents/cli
+<p align="center">
+Integrate Cypress with <a href="https://currents.dev/?utm_source=currents_cli">Currents</a> - a drop-in replacement for Cypress Cloud
+</p>
 
-CLI tool for running cypress tests with https://currents.dev dashboard. [Currents.dev](https://currents.dev/?utm_source=currents_cli) - is a drop-in replacement for Cypress Dashboard.
 
-## Example: Run cypress connected to Currents Dashboard
+
+<p align="center">
+  <img width="830" src="https://user-images.githubusercontent.com/1637928/213329831-4b734ed4-d87d-4f4d-b701-2844c17571e6.png" />
+</p>
+
+
+<p align="center">
+<a href="https://currents.dev?utm_source=currents_cli">Currents</a> | <a href="./CHANGELOG.md">Changelog</a> | <a href="https://currents.dev/readme/guides/cypress-compatibility">Compatibility</a> |
+<a href="https://currents.dev/readme/guides/currents-cli">Documentation</a>
+</p>
+
+---
+
+## CLI Usage
+
+Integrate Cypress with Currents Dashboard. The command passes down all the CLI flags to Cypress.
 
 ```sh
 npm install @currents/cli cypress
 npx currents run --parallel --record --key XXXXXX --ci-build-id build-001
 ```
 
-## Example: Prepare cypress for connecting to Currents Dashboard
+## API
 
-```sh
-npm install @currents/cli cypress
-npx currents-prepare
-npx cypress-retry ...
-```
+### `run`
 
-## Example: API usage
+Run Cypress via its [Module API](https://docs.cypress.io/guides/guides/module-api)
 
 ```ts
-import { patch } from "@currents/cli";
-import cypress from "cypress";
-
-async function main() {
-  await patch();
-
-  cypress
-    .run({
-      spec: "./cypress/e2e/examples/actions.cy.js",
-      parallel: true,
-      record: true,
-      key: "Currents key from https://app.currents.dev",
-      ciBuildId: "hello-currents",
-    })
-    .then((results) => {
-      console.log(results);
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-}
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+run(config: CypressCommandLine.CypressRunOptions): Promise<CypressCommandLine.CypressRunResult | CypressCommandLine.CypressFailedRunResult>
 ```
 
-# Changelog
+Example:
 
-https://github.com/currents-dev/cli/blob/main/CHANGELOG.md
+```ts
+import { run } from "@currents/cli";
+
+const cypressOptions: Partial<CypressCommandLine.CypressRunOptions> = {
+  browser: "chrome",
+  parallel: true,
+  record: true,
+  key: "Currents key from https://app.currents.dev",
+  tag: "smoke",
+};
+const results = await run(cypressOptions);
+```
+
+### `spawn`
+
+Spawn Cypress as a child process and inherit all the flags and environment variables. It invokes `process.exit` with the child process' exit code.
+
+```ts
+spawn(): Promise<void>
+```
+
+Example:
+
+```ts
+import { spawn } from "@currents/cli";
+
+await spawn();
+```
+
+## Breaking Changes
+
+### Version 4+
+
+Version 4+ doesn't modify the local installation of Cypress. The following complimentary binaries were deprecated:
+
+- `currents-prepare` script is deprecated. Use `run` or `spawn` API instead.
+- `currents-reset` script is deprecated, use `run` or `spawn` API instead.
+- `patch` API is deprecated. Use `run` or `spawn` instead.
