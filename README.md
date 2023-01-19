@@ -1,10 +1,21 @@
 # @currents/cli
+<p align="center">
+Integrate Cypress with <a href="https://currents.dev/?utm_source=currents_cli">Currents</a> - a drop-in replacement for Cypress Cloud
+</p>
 
-Integrate your Cypress with [Currents](https://currents.dev/?utm_source=currents_cli) - a drop-in replacement for Cypress Cloud.
+
+
+<p align="center">
+  <img width="830" src="https://user-images.githubusercontent.com/1637928/213329831-4b734ed4-d87d-4f4d-b701-2844c17571e6.png" />
+</p>
+
+
+<p align="center">
+<a href="https://currents.dev?utm_source=currents_cli">Currents</a> | <a href="./CHANGELOG.md">Changelog</a> | <a href="https://currents.dev/readme/guides/cypress-compatibility">Compatibility</a> |
+<a href="https://currents.dev/readme/guides/currents-cli">Documentation</a>
+</p>
 
 ---
-
-[Changelog](./CHANGELOG.md) | [Compatibility](https://currents.dev/readme/guides/cypress-compatibility) | [Documentation](https://currents.dev/readme/guides/currents-cli) | [NX](https://currents.dev/readme/ci-setup/nx)
 
 ## CLI Usage
 
