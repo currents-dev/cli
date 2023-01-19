@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.2](https://github.com/currents-dev/cli/compare/v3.1.3...v4.0.2) (2023-01-19)
+
+### Bug Fixes
+
+- update inline documentation ([1e701c6](https://github.com/currents-dev/cli/commit/1e701c6e091f7d3d78df81b909102ca91872d016))
+
 ## [4.0.1](https://github.com/currents-dev/cli/compare/v3.1.3...v4.0.1) (2023-01-19)
 
 Version 4+ is fully compatible with Cypress 12+ 🎉. It leaves the local installation of Cypress intact and uses the public Cypress APIs to enable the integration.
