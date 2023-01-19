@@ -5,7 +5,7 @@ Integrate Cypress with <a href="https://currents.dev/?utm_source=currents_cli">C
 </p>
 
 <p align="center">
-  <img width="830" src="https://user-images.githubusercontent.com/1637928/213329831-4b734ed4-d87d-4f4d-b701-2844c17571e6.png" />
+  <img width="830" src="https://user-images.githubusercontent.com/1637928/213367982-78987b7a-411a-4d2e-9486-ca204847022e.png" />
 </p>
 
 <p align="center">
