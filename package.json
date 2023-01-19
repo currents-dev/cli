@@ -1,6 +1,6 @@
 {
   "name": "@currents/cli",
-  "version": "4.0.0-beta.8",
+  "version": "4.0.0",
   "license": "MIT",
   "main": "./dist",
   "typings": "./dist",
@@ -50,7 +50,8 @@
     "e2e",
     "tests",
     "currents",
-    "sorry-cypress"
+    "sorry-cypress",
+    "cypress cloud"
   ],
   "release-it": {
     "npm": {
