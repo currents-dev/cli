@@ -30,10 +30,10 @@
     "currents": "bin/currents.js"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=14.17.0"
   },
   "dependencies": {
-    "cy2": "4.0.4"
+    "cy2": "4.0.6"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^5.1.0",

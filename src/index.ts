@@ -11,7 +11,9 @@ const URL = "https://cy.currents.dev";
  * @param config configuration options for Cypress
  * @returns Cypress run results
  */
-export async function run(config: CypressCommandLine.CypressRunOptions) {
+export async function run(
+  config?: Partial<CypressCommandLine.CypressRunOptions>
+) {
   return await cy2.run(URL, config);
 }
 
