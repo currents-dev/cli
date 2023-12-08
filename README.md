@@ -15,9 +15,13 @@ Integrate Cypress with <a href="https://currents.dev/?utm_source=currents_cli">C
 
 ---
 
-*March 2023 Update*
+**Dec 2023 Update**
 
-⭐️ Cypress 12.6.0+ users, please use https://github.com/currents-dev/cypress-cloud if you are seeing `Cypress does not support recording test results to this third party service` error ⭐️ 
+If you are seeing `Error: certificate has expired`, please upgrade to version 1.0.4+.
+
+**March 2023 Update**
+
+⭐️ Cypress 12.6.0+ users, please use https://github.com/currents-dev/cypress-cloud if you are seeing `Cypress does not support recording test results to this third party service` error ⭐️
 
 ---
 

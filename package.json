@@ -33,7 +33,7 @@
     "node": ">=14.17.0"
   },
   "dependencies": {
-    "cy2": "4.0.7-beta.1"
+    "cy2": "4.0.8"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^5.1.0",
