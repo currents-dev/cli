@@ -1,18 +1,26 @@
 # Changelog
 
-### [4.0.4](https://github.com/currents-dev/cli/compare/v4.0.3...v4.0.4) (2023-12-08)
+### [4.0.5](https://github.com/currents-dev/cli/compare/v4.0.4...v4.0.5) (2023-12-08)
 
+### Misc
+
+- Update readme with update recommendation
 
 ### Bug Fixes
 
-* use cy2 4.0.8 ([23df81a](https://github.com/currents-dev/cli/commit/23df81ab69f984e2958f922256dbba0786f44659))
+- update readme on gh and npm ([7aff167](https://github.com/currents-dev/cli/commit/7aff167fe0b38a4ca8887163f3ab3cb114a9a3a7))
+
+### [4.0.4](https://github.com/currents-dev/cli/compare/v4.0.3...v4.0.4) (2023-12-08)
+
+### Bug Fixes
+
+- use cy2 4.0.8 ([23df81a](https://github.com/currents-dev/cli/commit/23df81ab69f984e2958f922256dbba0786f44659))
 
 ### [4.0.3](https://github.com/currents-dev/cli/compare/v4.0.2...v4.0.3) (2023-02-17)
 
-
 ### Bug Fixes
 
-* use cy2@4.0.7-beta.1 ([5e2121d](https://github.com/currents-dev/cli/commit/5e2121ddb2d11ed7f04d5630cd5436e5eb0b910d))
+- use cy2@4.0.7-beta.1 ([5e2121d](https://github.com/currents-dev/cli/commit/5e2121ddb2d11ed7f04d5630cd5436e5eb0b910d))
 
 ## [4.0.2](https://github.com/currents-dev/cli/compare/v3.1.3...v4.0.2) (2023-01-19)
 
