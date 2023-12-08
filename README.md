@@ -17,7 +17,7 @@ Integrate Cypress with <a href="https://currents.dev/?utm_source=currents_cli">C
 
 **Dec 2023 Update**
 
-If you are seeing `Error: certificate has expired`, please upgrade to version 1.0.4+.
+If you are seeing `Error: certificate has expired`, please upgrade to version 4.0.4+.
 
 **March 2023 Update**
 
