@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.0.4](https://github.com/currents-dev/cli/compare/v4.0.3...v4.0.4) (2023-12-08)
+
+
+### Bug Fixes
+
+* use cy2 4.0.8 ([23df81a](https://github.com/currents-dev/cli/commit/23df81ab69f984e2958f922256dbba0786f44659))
+
 ### [4.0.3](https://github.com/currents-dev/cli/compare/v4.0.2...v4.0.3) (2023-02-17)
 
 
